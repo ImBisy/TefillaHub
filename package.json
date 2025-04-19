@@ -2,14 +2,14 @@
   "name": "bare---tailwind",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "npx tailwindcss -i ./src/input.css -o ./public/css/output.css --minify --watch"
+    "css": "npx tailwindcss -i ./src/input.css -o ./public/css/output.css --minify --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.4.4"
   }
